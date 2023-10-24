@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A546C0C72AE81B0300D40D5A /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546C0C62AE81B0300D40D5A /* UserDetailView.swift */; };
 		A5E0ECD72AE80B5D000AC4DA /* LiveCodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECD62AE80B5D000AC4DA /* LiveCodingApp.swift */; };
-		A5E0ECD92AE80B5D000AC4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECD82AE80B5D000AC4DA /* ContentView.swift */; };
+		A5E0ECD92AE80B5D000AC4DA /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECD82AE80B5D000AC4DA /* UsersView.swift */; };
 		A5E0ECDB2AE80B5D000AC4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E0ECDA2AE80B5D000AC4DA /* Assets.xcassets */; };
 		A5E0ECDF2AE80B5D000AC4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E0ECDE2AE80B5D000AC4DA /* Preview Assets.xcassets */; };
+		A5E0ECE72AE81217000AC4DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECE62AE81217000AC4DA /* User.swift */; };
+		A5E0ECEA2AE81269000AC4DA /* UserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECE92AE81269000AC4DA /* UserDataSource.swift */; };
+		A5E0ECEF2AE813C7000AC4DA /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECEE2AE813C7000AC4DA /* UsersViewModel.swift */; };
+		A5E0ECF22AE81440000AC4DA /* UsersState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECF12AE81440000AC4DA /* UsersState.swift */; };
+		A5E0ECF62AE81667000AC4DA /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECF52AE81667000AC4DA /* UserCellView.swift */; };
+		A5E0ECF92AE8175D000AC4DA /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = A5E0ECF82AE8175D000AC4DA /* CachedAsyncImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A546C0C62AE81B0300D40D5A /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		A5E0ECD32AE80B5D000AC4DA /* LiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E0ECD62AE80B5D000AC4DA /* LiveCodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCodingApp.swift; sourceTree = "<group>"; };
-		A5E0ECD82AE80B5D000AC4DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5E0ECD82AE80B5D000AC4DA /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		A5E0ECDA2AE80B5D000AC4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5E0ECDC2AE80B5D000AC4DA /* LiveCoding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiveCoding.entitlements; sourceTree = "<group>"; };
 		A5E0ECDE2AE80B5D000AC4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5E0ECE62AE81217000AC4DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A5E0ECE92AE81269000AC4DA /* UserDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSource.swift; sourceTree = "<group>"; };
+		A5E0ECEE2AE813C7000AC4DA /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		A5E0ECF12AE81440000AC4DA /* UsersState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersState.swift; sourceTree = "<group>"; };
+		A5E0ECF52AE81667000AC4DA /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E0ECF92AE8175D000AC4DA /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +66,10 @@
 		A5E0ECD52AE80B5D000AC4DA /* LiveCoding */ = {
 			isa = PBXGroup;
 			children = (
+				A5E0ECEB2AE813AD000AC4DA /* Users */,
+				A5E0ECE82AE8125C000AC4DA /* DataSource */,
+				A5E0ECE52AE8120C000AC4DA /* Entities */,
 				A5E0ECD62AE80B5D000AC4DA /* LiveCodingApp.swift */,
-				A5E0ECD82AE80B5D000AC4DA /* ContentView.swift */,
 				A5E0ECDA2AE80B5D000AC4DA /* Assets.xcassets */,
 				A5E0ECDC2AE80B5D000AC4DA /* LiveCoding.entitlements */,
 				A5E0ECDD2AE80B5D000AC4DA /* Preview Content */,
@@ -67,6 +83,58 @@
 				A5E0ECDE2AE80B5D000AC4DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5E0ECE52AE8120C000AC4DA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECE62AE81217000AC4DA /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A5E0ECE82AE8125C000AC4DA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECE92AE81269000AC4DA /* UserDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		A5E0ECEB2AE813AD000AC4DA /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECEC2AE813B3000AC4DA /* View */,
+				A5E0ECED2AE813B8000AC4DA /* ViewModel */,
+				A5E0ECF02AE81432000AC4DA /* Model */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		A5E0ECEC2AE813B3000AC4DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECD82AE80B5D000AC4DA /* UsersView.swift */,
+				A5E0ECF52AE81667000AC4DA /* UserCellView.swift */,
+				A546C0C62AE81B0300D40D5A /* UserDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5E0ECED2AE813B8000AC4DA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECEE2AE813C7000AC4DA /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A5E0ECF02AE81432000AC4DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5E0ECF12AE81440000AC4DA /* UsersState.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +153,9 @@
 			dependencies = (
 			);
 			name = LiveCoding;
+			packageProductDependencies = (
+				A5E0ECF82AE8175D000AC4DA /* CachedAsyncImage */,
+			);
 			productName = LiveCoding;
 			productReference = A5E0ECD32AE80B5D000AC4DA /* LiveCoding.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +184,9 @@
 				Base,
 			);
 			mainGroup = A5E0ECCA2AE80B5C000AC4DA;
+			packageReferences = (
+				A5E0ECF72AE8175D000AC4DA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = A5E0ECD42AE80B5D000AC4DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +213,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E0ECD92AE80B5D000AC4DA /* ContentView.swift in Sources */,
+				A5E0ECF22AE81440000AC4DA /* UsersState.swift in Sources */,
+				A5E0ECD92AE80B5D000AC4DA /* UsersView.swift in Sources */,
+				A5E0ECEA2AE81269000AC4DA /* UserDataSource.swift in Sources */,
+				A5E0ECF62AE81667000AC4DA /* UserCellView.swift in Sources */,
+				A546C0C72AE81B0300D40D5A /* UserDetailView.swift in Sources */,
 				A5E0ECD72AE80B5D000AC4DA /* LiveCodingApp.swift in Sources */,
+				A5E0ECE72AE81217000AC4DA /* User.swift in Sources */,
+				A5E0ECEF2AE813C7000AC4DA /* UsersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5E0ECF72AE8175D000AC4DA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5E0ECF82AE8175D000AC4DA /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5E0ECF72AE8175D000AC4DA /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5E0ECCB2AE80B5C000AC4DA /* Project object */;
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct LiveCodingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersView(viewModel: UsersView.UsersViewModel())
         }
     }
 }
