@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A546C0C72AE81B0300D40D5A /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546C0C62AE81B0300D40D5A /* UserDetailView.swift */; };
+		A546C0C92AE8208300D40D5A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A546C0C82AE8208300D40D5A /* README.md */; };
 		A5E0ECD72AE80B5D000AC4DA /* LiveCodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECD62AE80B5D000AC4DA /* LiveCodingApp.swift */; };
 		A5E0ECD92AE80B5D000AC4DA /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E0ECD82AE80B5D000AC4DA /* UsersView.swift */; };
 		A5E0ECDB2AE80B5D000AC4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E0ECDA2AE80B5D000AC4DA /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		A546C0C62AE81B0300D40D5A /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		A546C0C82AE8208300D40D5A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5E0ECD32AE80B5D000AC4DA /* LiveCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E0ECD62AE80B5D000AC4DA /* LiveCodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCodingApp.swift; sourceTree = "<group>"; };
 		A5E0ECD82AE80B5D000AC4DA /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		A5E0ECCA2AE80B5C000AC4DA = {
 			isa = PBXGroup;
 			children = (
+				A546C0C82AE8208300D40D5A /* README.md */,
 				A5E0ECD52AE80B5D000AC4DA /* LiveCoding */,
 				A5E0ECD42AE80B5D000AC4DA /* Products */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A546C0C92AE8208300D40D5A /* README.md in Resources */,
 				A5E0ECDF2AE80B5D000AC4DA /* Preview Assets.xcassets in Resources */,
 				A5E0ECDB2AE80B5D000AC4DA /* Assets.xcassets in Resources */,
 			);
